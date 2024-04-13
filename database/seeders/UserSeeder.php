@@ -72,10 +72,10 @@ class UserSeeder extends Seeder
 
         $product = Product::create([
             'id' => Str::uuid(),
-            'product_model' => 'Asus ROG Zephyrus',
-            'product_type' => 'Asus ROG Zephyrus',
-            'police_number' => 'Asus ROG Zephyrus',
-            'product_price' => 15000000,
+            'product_model' => 'Baleno',
+            'product_type' => 'Sedan',
+            'police_number' => 'B 1234 AB',
+            'product_price' => 300000,
             'is_active' => 1,
             'user_id' => $users[0]['id'],
         ]);
